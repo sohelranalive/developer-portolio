@@ -17,7 +17,7 @@
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
-    
+
 }
 
 /* Header and Navigation style */
@@ -26,7 +26,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav ul {
@@ -39,75 +39,222 @@ nav ul li {
     margin-left: 50px;
 }
 
-.header{
+section {
+    margin-top: 130px;
+}
+
+.header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+
 }
 
 .nav-tittle {
     font-weight: 800;
     font-size: 45px;
 }
-.banner{
+
+.banner {
     display: flex;
 }
-.banner-image{
+
+.banner-image {
     margin-left: 38px;
 }
-.banner-description{
+
+.banner-description {
     margin-left: 200px;
 }
-.sub-tittle{
+
+.sub-tittle {
     margin-top: 297px;
     font-weight: 600;
-font-size: 45px;
+    font-size: 45px;
 
-color: #474747;
+    color: #474747;
 
 }
-.tittle{
+
+.tittle {
     margin-top: 5px;
     font-weight: 700;
-font-size: 85px;
+    font-size: 85px;
 
-color: #181818;
+    color: #181818;
 
 }
-.tittle-description{
+
+.tittle-description {
     margin-top: 20px;
     font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-color: #757575;
-margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
 }
 
-main{
+main {
     max-width: 1140px;
-margin: 0 auto;
-background: #FFF8F3;
-border-radius: 10px;
+    margin: 0 auto;
+
+    border-radius: 10px;
 }
-.about{
-    margin-top: 130px;
+
+.about {
+
     padding: 130px 150px;
     text-align: center;
+    background: #FFF8F3;
+
 }
-.section-tittle{
+
+.section-tittle {
     margin-bottom: 30px;
     font-weight: 700;
-font-size: 35px;
+    font-size: 35px;
 
 
-color: #181818;
+    color: #181818;
 }
 
-.section-description{
+.section-description {
     margin-bottom: 30px;
-    font-weight: 400;
-font-size: 18px;
-color: #757575;
+    font-weight: 700;
+    font-size: 18px;
+    color: #757575;
 
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    margin-top: 30px;
+
+}
+
+.info-tittle {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-value {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* what i do section */
+.what-i-do {
+
+
+    justify-content: center;
+
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.what-i-do>p {
+    margin: auto;
+
+    font-weight: 400;
+    font-size: 18px;
+
+    width: 909px;
+    height: 90px;
+    text-align: center;
+
+
+
+    color: #757575;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* .skill>img{
+    margin-left: 70px;
+} */
+.skill-tittle {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #757575;
+}
+
+.details-ee>h4 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+    color: #474747;
+}
+
+.details-ee>h5 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+    color: #474747;
+
+}
+
+.job-duration {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.job-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+    color: #757575;
+}
+
+.details-ee>hr {
+    margin-bottom: 10px;
+}
+
+.resume-tittle {
+    margin-bottom: 113px;
+}
+
+.education-experience {
+    display: flex;
+    gap: 71px;
+    justify-content: left;
 }
